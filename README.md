@@ -1,2 +1,7 @@
 # hyperapp-learning
-learning,test
+learning and test Virtual DOM
+
+## Use 
+```
+npm i && npm start
+```
