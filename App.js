@@ -1,7 +1,7 @@
 import { h, app } from "./hyperapp"
-import HelloWord from './HelloWord'
-import state from './state'
-import actions from './actions'
+import HelloWord from './src/HelloWord'
+import state from './src/state'
+import actions from './src/actions'
 
 // count 和 actions 是 props 传进来的两个参数
 const view = (state, actions) => (

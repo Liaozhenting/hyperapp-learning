@@ -1,4 +1,4 @@
-import { h, app } from "./hyperapp"
+import { h, app } from "../hyperapp"
 const HelloWord = ({ count, actions }, children) => (
     <div>
         <h1>{count}</h1>
