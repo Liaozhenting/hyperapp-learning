@@ -8,6 +8,7 @@ const port = process.env.PORT || 8082;
 
 new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
+    inline:true
 }).listen(port, 'localhost', err => {
     if (err) {
         console.log(err);

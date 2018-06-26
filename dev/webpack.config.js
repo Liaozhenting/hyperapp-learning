@@ -29,9 +29,5 @@ module.exports = {
                 loader: 'style-loader!css-loader!less-loader'
             },
         ]
-    },
-    externals: {
-        "react": 'React',
-        'react-dom': 'ReactDOM'
     }
 };
